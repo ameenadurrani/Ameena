@@ -17,3 +17,4 @@ for i in fav_num:
     print(f"The number {i} and its square: ({i}, {i ** 2})")
 totalSum = sum(fav_num)
 print(f"Amazing! The sum of your favorite numbers is: {totalSum}")
+print("hello")
