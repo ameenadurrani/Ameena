@@ -39,7 +39,7 @@ print(f"Amazing! The sum of your favorite numbers is: {totalSum}")
 
 #checking if the total sum is prime or not
 
-is_prime = True
+is_prime : bool = True
 if totalSum > 1:
     for j in range(2, int(totalSum**0.5) + 1):
         if totalSum % j == 0:
