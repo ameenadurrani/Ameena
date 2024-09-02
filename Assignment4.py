@@ -32,8 +32,14 @@ for i in fav_num:
        
 #finding the square 
 
+squareList : list =[]
 for i in fav_num:
     print(f"The number {i} and its square: ({i}, {i ** 2})")
+    square =(i,i**2)
+    squareList.append(square)
+   
+# finding the sum of the numbers
+
 totalSum = sum(fav_num)
 print(f"Amazing! The sum of your favorite numbers is: {totalSum}")
 
