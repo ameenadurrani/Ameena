@@ -58,3 +58,4 @@ if is_prime:
 else:
     print(f"Wow, {totalSum} is not a prime number!")  
 
+print("hello")
