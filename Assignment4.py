@@ -57,5 +57,3 @@ if is_prime:
     print(f"Wow, {totalSum} is a prime number!")
 else:
     print(f"Wow, {totalSum} is not a prime number!")  
-
-print("hello")
